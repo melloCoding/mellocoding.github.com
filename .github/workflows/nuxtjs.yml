@@ -51,6 +51,7 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+      - run: npm install -D @nuxtjs/tailwindcss
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
