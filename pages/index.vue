@@ -1,11 +1,12 @@
 <template>
-    <nav class="navbar bg-secondary"><NuxtLink to="/">Jeffrey Mello</NuxtLink></nav>
+  <div class="h-screen bg-base-100">
+    <AppHeader />
     <div>
      <h1 class="bg-slate-500 rounded-md">Welcome to the index.vue</h1>
-    </div>
-    <button class="btn">hello there</button>
+    </div> 
+    <NuxtLink to="/gamedev"><button class="btn">hello there</button></NuxtLink>
     <ul>
-     <li><NuxtLink to="/gamedev">index page</NuxtLink></li>
+     <li><NuxtLink to="/gamedev">gamedev page</NuxtLink></li>
     </ul>
-   
+  </div>
   </template>
