@@ -4,9 +4,6 @@
     <div>
      <h1 class="bg-slate-500 rounded-md">Welcome to the index.vue</h1>
     </div> 
-    <NuxtLink to="/gamedev"><button class="btn">hello there</button></NuxtLink>
-    <ul>
-     <li><NuxtLink to="/gamedev">gamedev page</NuxtLink></li>
-    </ul>
+    <NuxtLink to="/gamedev"><button class="btn">Game Dev page</button></NuxtLink>
   </div>
   </template>
