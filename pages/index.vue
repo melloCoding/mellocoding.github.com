@@ -3,10 +3,13 @@
     <!-- Navbar -->
     <AppHeader />
     <!-- Attempting to replicating something I found on the title page of beta.civilhost.net -->
-    <div class="card place-items-center bg-base-100">
-      <h1 class="items-start">Jeffreymello</h1>
+    <div class="card-side bg-secondary w-96 rounded-lg content">
+      <h1 class="card-title">Jeffreymello</h1>
+      <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error sit, molestiae voluptates perspiciatis accusantium cum corrupti rerum et, facilis blanditiis laudantium quis velit ipsum at non doloribus voluptate sunt!</p>
       <!-- Place Holder Image CHANGE BEOFRE DONE WITH LIKE YOUR FISH OR SOMETHING-->
-      <img class="items-end" src="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg">
+      <figure>
+        <img src="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg">
+      </figure>
     </div>
     <NuxtLink to="/gamedev"><button class="btn">Game Dev page</button></NuxtLink>
   </div>
