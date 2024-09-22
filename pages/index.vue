@@ -1,8 +1,10 @@
 <template>
   <!--Projects-->
   <div class="bg-base-100">
-    <div class="grid grid-cols-3 content-stretch px-[10%]">
-      <div class="card bg-secondary w-auto rounded-lg content-start mx-5">
+    <div
+      class="grid grid-cols-1 md:grid-cols-3 content-stretch px-[5%] gap-[5%]"
+    >
+      <div class="card bg-secondary w-auto rounded-lg content-start">
         <div class="card-body">
           <h1 class="card-title">Jeffrey Mello</h1>
           <p>
@@ -20,7 +22,7 @@
         </figure>
       </div>
 
-      <div class="card bg-secondary w-auto rounded-lg content-end mx-5">
+      <div class="card bg-secondary w-auto rounded-lg content-end">
         <div class="card-body">
           <h1 class="card-title">Jeffrey Mello</h1>
           <p>
@@ -38,7 +40,7 @@
         </figure>
       </div>
 
-      <div class="card bg-secondary w-auto rounded-lg content-end mx-5">
+      <div class="card bg-secondary w-auto rounded-lg content-end">
         <div class="card-body">
           <h1 class="card-title">Jeffrey Mello</h1>
           <p>
@@ -56,6 +58,10 @@
         </figure>
       </div>
     </div>
+
+    <ProjectCard
+      imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
+    />
     <NuxtLink to="/gamedev"
       ><button class="btn">Game Dev page</button></NuxtLink
     >

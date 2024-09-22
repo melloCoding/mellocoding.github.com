@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar bg-primary top-0 mb-5 absolute">
+  <nav class="navbar">
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
         <!--Main buttion for return to home-->
