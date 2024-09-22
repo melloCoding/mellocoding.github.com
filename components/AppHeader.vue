@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal">
         <!--Main buttion for return to home-->
         <NuxtLink to="/">
           <div class="navbar-start">
