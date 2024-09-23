@@ -6,7 +6,7 @@
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 content-stretch px-[5%] gap-[5%]"
     >
       <ProjectCard
-        title="Grass"
+        title="Potatoes"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
             sit, molestiae voluptates perspiciatis accusantium cum corrupti
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
@@ -15,7 +15,7 @@
       />
 
       <ProjectCard
-        title="Grass"
+        title="Potatoes"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
             sit, molestiae voluptates perspiciatis accusantium cum corrupti
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
@@ -24,7 +24,7 @@
       />
 
       <ProjectCard
-        title="Grass"
+        title="Potatoes"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
             sit, molestiae voluptates perspiciatis accusantium cum corrupti
             rerum et, facilis blanditiis laudantium quis velit ipsum at non

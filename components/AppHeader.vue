@@ -1,23 +1,10 @@
 <template>
-  <nav class="navbar">
-    <div class="flex-none">
-      <ul class="menu menu-horizontal">
-        <!--Main buttion for return to home-->
-        <NuxtLink to="/">
-          <div class="navbar-start">
-            <div class="btn btn-ghost text-xl">Jeffrey Mello</div>
-          </div>
-        </NuxtLink>
-        <li>
-          <details>
-            <summary>Parent</summary>
-            <ul class="bg-primary rounded-t-none p-2">
-              <li><NuxtLink to="/gamedev.vue">Game Devlopment</NuxtLink></li>
-              <li><a>Link 2</a></li>
-            </ul>
-          </details>
-        </li>
-      </ul>
+  <div class="navbar nav m-2">
+    <div class="flex-1">
+      <NuxtLink to="/" class="btn btn-ghost text-xl">Jeffrey Mello</NuxtLink>
     </div>
-  </nav>
+    <div class="flex-none pr-5 btn btn-ghost text-lg">
+      <NuxtLink to="/robotics.vue">Robotics</NuxtLink>
+    </div>
+  </div>
 </template>
