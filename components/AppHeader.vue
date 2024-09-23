@@ -3,8 +3,8 @@
     <div class="flex-1">
       <NuxtLink to="/" class="btn btn-ghost text-xl">Jeffrey Mello</NuxtLink>
     </div>
-    <div class="flex-none btn btn-ghost text-lg">
+    <!--    <div class="flex-none btn btn-ghost text-lg">
       <NuxtLink to="/robotics">Robotics</NuxtLink>
     </div>
-  </div>
+  --></div>
 </template>
