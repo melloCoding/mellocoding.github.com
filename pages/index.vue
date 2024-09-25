@@ -1,10 +1,40 @@
 <template>
-  <!--Projects-->
   <div>
     <AppHeader />
+    <!--Hero for name picture and description-->
+    <div class="hero min-h-screen">
+      <div class="hero-content flex-col lg:flex-row">
+        <a
+          target="_blank"
+          href="https://github.com/melloCoding"
+          class="md:hover:scale-105 transition ease-in-out"
+        >
+          <img
+            src="/assets/imgs/logo.jpeg"
+            class="max-w-sm rounded-2xl shadow-2xl"
+          />
+        </a>
+        <div>
+          <h1 class="text-5xl font-bold">Jeffrey Mello</h1>
+          <p class="py-6">Beginier web developer and Game Devloper.</p>
+          <!-- <button class="btn btn-primary">View Projects</button> -->
+        </div>
+      </div>
+    </div>
+
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%]"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10"
     >
+      <NuxtLink to="/gameDev/clothesConundrum/0.0.1">
+        <ProjectCard
+          title="Clothes Conundrum Version v0.0.1"
+          description="This is the Dev Log for my game Clothes Conundrum"
+          imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
+          imgAltText="Image of Potatoes"
+          routeLocation="/gameDev/clothesConduntrum/0.0.1"
+        />
+      </NuxtLink>
+
       <ProjectCard
         title="Potatoes"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
@@ -12,6 +42,8 @@
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
             doloribus voluptate sunt!"
         imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
+        imgAltText="Image of Potatoes"
+        routeLocation="/"
       />
 
       <ProjectCard
@@ -21,15 +53,8 @@
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
             doloribus voluptate sunt!"
         imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
-      />
-
-      <ProjectCard
-        title="Potatoes"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
-            sit, molestiae voluptates perspiciatis accusantium cum corrupti
-            rerum et, facilis blanditiis laudantium quis velit ipsum at non
-            doloribus voluptate sunt!"
-        imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
+        imgAltText="Image of Potatoes"
+        routeLocation="/"
       />
 
       <ProjectCard
@@ -39,6 +64,8 @@
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
             doloribus voluptate sunt!"
         imageSrc="https://images.unsplash.com/photo-1533460004989-cef01064af7e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3Jhc3N8ZW58MHx8MHx8fDA%3D"
+        imgAltText="Image of Grass"
+        routeLocation="/"
       />
     </div>
   </div>
