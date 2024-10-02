@@ -29,9 +29,9 @@
         <ProjectCard
           title="Clothes Conundrum Version v0.0.1"
           description="This is the Dev Log for my game Clothes Conundrum"
-          imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
+          imageSrc="/assets/imgs/image.png"
           imgAltText="Image of Potatoes"
-          routeLocation="/gameDev/clothesConduntrum/0.0.1"
+          routeLocation="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
         />
       </NuxtLink>
 
@@ -43,7 +43,6 @@
             doloribus voluptate sunt!"
         imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
         imgAltText="Image of Potatoes"
-        routeLocation="/"
       />
 
       <ProjectCard
@@ -54,7 +53,6 @@
             doloribus voluptate sunt!"
         imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
         imgAltText="Image of Potatoes"
-        routeLocation="/"
       />
 
       <ProjectCard
@@ -63,9 +61,8 @@
             sit, molestiae voluptates perspiciatis accusantium cum corrupti
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
             doloribus voluptate sunt!"
-        imageSrc="https://images.unsplash.com/photo-1533460004989-cef01064af7e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3Jhc3N8ZW58MHx8MHx8fDA%3D"
+        imageSrc="/assets/imgs/image.png"
         imgAltText="Image of Grass"
-        routeLocation="/"
       />
     </div>
   </div>
