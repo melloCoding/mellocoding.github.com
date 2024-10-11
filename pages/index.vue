@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import ProjectCard from "~/components/project-card.vue";
+import ProjectCard from "~/components/projectCard.vue";
 
 export default {
   components: {
