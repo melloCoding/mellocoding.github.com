@@ -13,6 +13,7 @@
       <!--Card Image-->
     </div>
     <figure class="h-[50%]">
+      <!-- prettier-ignore-attribute -->
       <img :src="imageSrc" :alt="imgAltText" />
     </figure>
   </div>
@@ -36,6 +37,7 @@ export default {
       type: String,
       required: true,
     },
+    //allows the alt text on the image on the card to be editied wherever the file may be imported
     imgAltText: {
       type: String,
       required: true,

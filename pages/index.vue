@@ -25,15 +25,13 @@
     <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10"
     >
-      <NuxtLink to="/gameDev/clothesConundrum/0.0.1">
-        <ProjectCard
-          title="Clothes Conundrum Version v0.0.1"
-          description="This is the Dev Log for my game Clothes Conundrum"
-          imageSrc="/assets/imgs/image.png"
-          imgAltText="Image of Potatoes"
-          routeLocation="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
-        />
-      </NuxtLink>
+      <ProjectCard
+        title="Clothes Conundrum Version v0.0.1"
+        description="This is the Dev Log for my game Clothes Conundrum"
+        imageSrc="/imgs/image.png"
+        imgAltText="Image of Potatoes"
+        routeLocation="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
+      />
 
       <ProjectCard
         title="Potatoes"
@@ -61,7 +59,7 @@
             sit, molestiae voluptates perspiciatis accusantium cum corrupti
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
             doloribus voluptate sunt!"
-        imageSrc="/assets/imgs/image.png"
+        imageSrc="public/imgs/image.png"
         imgAltText="Image of Grass"
       />
     </div>
@@ -69,11 +67,11 @@
 </template>
 
 <script>
-import InfoCard from "~/components/project-card.vue";
+import ProjectCard from "~/components/project-card.vue";
 
 export default {
   components: {
-    InfoCard,
+    ProjectCard,
   },
 };
 </script>
