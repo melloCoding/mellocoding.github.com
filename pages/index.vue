@@ -28,7 +28,7 @@
       <ProjectCard
         title="Clothes Conundrum Version v0.0.1"
         description="This is the Dev Log for my game Clothes Conundrum"
-        imageSrc="/imgs/image.png"
+        imageSrc="/imgs/clothesconundrumbg.png"
         imgAltText="Image of Potatoes"
         routeLocation="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
       />
@@ -59,7 +59,7 @@
             sit, molestiae voluptates perspiciatis accusantium cum corrupti
             rerum et, facilis blanditiis laudantium quis velit ipsum at non
             doloribus voluptate sunt!"
-        imageSrc="public/imgs/image.png"
+        imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
         imgAltText="Image of Grass"
       />
     </div>
