@@ -25,42 +25,35 @@
     <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10"
     >
+      <!----------------------------------------------------------------------------------
+    Component: Project Card
+    The project card is a componet that holds a basic card with a title body description
+    a and an image the component itself has a nuxtLink built in.
+
+    Editable fields:
+    title=""
+    the title is the text at the top of the card that acts as a title
+
+    description=""
+    the description is the text below the title that provieds a breif description of
+    what might pop up if the user clicks on the link
+
+    imgSrc=""
+    this is the image that pops up beneth the description just put the path local path
+    to the image in the field
+
+    imgAltText=""
+    This provides the image alt text for the image above
+
+    routeLocation=""
+    This provides the location for the route for when the user clicks on the card
+    ----------------------------------------------------------------------------------->
       <ProjectCard
         title="Clothes Conundrum Version v0.0.1"
         description="This is the Dev Log for my game Clothes Conundrum"
         imageSrc="/imgs/clothesconundrumbg.png"
         imgAltText="Image of Potatoes"
-        routeLocation="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
-      />
-
-      <ProjectCard
-        title="Potatoes"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
-            sit, molestiae voluptates perspiciatis accusantium cum corrupti
-            rerum et, facilis blanditiis laudantium quis velit ipsum at non
-            doloribus voluptate sunt!"
-        imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
-        imgAltText="Image of Potatoes"
-      />
-
-      <ProjectCard
-        title="Potatoes"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
-            sit, molestiae voluptates perspiciatis accusantium cum corrupti
-            rerum et, facilis blanditiis laudantium quis velit ipsum at non
-            doloribus voluptate sunt!"
-        imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
-        imgAltText="Image of Potatoes"
-      />
-
-      <ProjectCard
-        title="Grass"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error
-            sit, molestiae voluptates perspiciatis accusantium cum corrupti
-            rerum et, facilis blanditiis laudantium quis velit ipsum at non
-            doloribus voluptate sunt!"
-        imageSrc="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg"
-        imgAltText="Image of Grass"
+        routeLocation="gameDev/clothesConundrum/0.0.1"
       />
     </div>
   </div>

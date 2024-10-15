@@ -1,26 +1,28 @@
 <template>
   <!--Main body of the card-->
-  <div
-    class="card bg-secondary w-auto rounded-lg content-start sm:hover:scale-100 md:hover:scale-105 transition ease-in-out md:hover:underline drop-shadow-xl"
-  >
-    <div class="card-body">
-      <!--Card Title-->
-      <h1 class="card-title">{{ title }}</h1>
-      <!--Card Description-->
-      <p>
-        {{ description }}
-      </p>
-      <!--Card Image-->
+  <NuxtLink :to="routeLocation">
+    <div
+      class="card bg-secondary w-auto rounded-lg content-start sm:hover:scale-100 md:hover:scale-105 transition ease-in-out md:hover:underline drop-shadow-xl"
+    >
+      <div class="card-body">
+        <!--Card Title-->
+        <h1 class="card-title">{{ title }}</h1>
+        <!--Card Description-->
+        <p>
+          {{ description }}
+        </p>
+        <!--Card Image-->
+      </div>
+      <figure class="h-[50%]">
+        <!-- prettier-ignore-attribute -->
+        <img
+          class="object-fill h-full w-full"
+          :src="imageSrc"
+          :alt="imgAltText"
+        />
+      </figure>
     </div>
-    <figure class="h-[50%]">
-      <!-- prettier-ignore-attribute -->
-      <img
-        class="object-fill h-full w-full"
-        :src="imageSrc"
-        :alt="imgAltText"
-      />
-    </figure>
-  </div>
+  </NuxtLink>
 </template>
 
 <script>
@@ -43,6 +45,10 @@ export default {
     },
     //allows the alt text on the image on the card to be editied wherever the file may be imported
     imgAltText: {
+      type: String,
+      required: true,
+    },
+    routeLocation: {
       type: String,
       required: true,
     },
