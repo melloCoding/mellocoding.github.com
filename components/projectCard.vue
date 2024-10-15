@@ -14,7 +14,11 @@
     </div>
     <figure class="h-[50%]">
       <!-- prettier-ignore-attribute -->
-      <img :src="imageSrc" :alt="imgAltText" />
+      <img
+        class="object-cover h-full w-full"
+        :src="imageSrc"
+        :alt="imgAltText"
+      />
     </figure>
   </div>
 </template>
