@@ -15,7 +15,7 @@
     <figure class="h-[50%]">
       <!-- prettier-ignore-attribute -->
       <img
-        class="object-cover h-full w-full"
+        class="object-fill h-full w-full"
         :src="imageSrc"
         :alt="imgAltText"
       />
