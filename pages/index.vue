@@ -1,6 +1,7 @@
 <template>
   <div>
     <AppHeader />
+
     <!--Hero for name picture and description-->
     <div class="hero min-h-screen">
       <div class="hero-content flex-col lg:flex-row">
@@ -17,13 +18,15 @@
         <div>
           <h1 class="text-5xl font-bold">Jeffrey Mello</h1>
           <p class="py-6">Beginier web developer and Game Devloper.</p>
-          <!-- <button class="btn btn-primary">View Projects</button> -->
         </div>
       </div>
     </div>
+    <!--Divider to seporate the recent projects from the hero-->
+    <div class="divider px-10"></div>
+    <h1 class="font-bold text-center text-4xl pb-10">Recent Updates</h1>
 
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10 item-center"
     >
       <!----------------------------------------------------------------------------------
     Component: Project Card

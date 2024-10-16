@@ -25,10 +25,19 @@ export default {
           "success": "#00ff00",
           "warning": "#fbbf24",
           "error": "#ff0000",
-          },
         },
-      ],
-    },
-  plugins: [require('daisyui'),],
+      },
+    ],
+  },
+  plugins: [
+    require('daisyui'),
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.image-render-nearest': {
+          'image-rendering': 'pixelated',
+        },
+      }
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    }
+  ],
 }
-
