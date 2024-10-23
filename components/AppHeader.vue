@@ -4,7 +4,7 @@
       <NuxtLink to="/" class="btn btn-ghost text-xl">Jeffrey Mello</NuxtLink>
     </div>
     <div class="flex-none btn btn-ghost text-lg">
-      <NuxtLink to="/gameDev">Devlog</NuxtLink>
+      <NuxtLink to="/gamedev">Devlog</NuxtLink>
     </div>
     <!--<div class="flex-none btn btn-ghost text-lg">
       <NuxtLink to="/robotics">Robotics</NuxtLink>
