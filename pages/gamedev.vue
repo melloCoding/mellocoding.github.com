@@ -1,7 +1,7 @@
 <template>
   <AppHeader />
   <h1 class="text-center text-5xl font-bold pb-5">Game Development</h1>
-  <p class="text-center text-xl mx-48">
+  <p class="text-center text-xl px-10">
     I have begun to learn game development as it is something that has
     interested me for a long time. I first go interested in game development
     when a video by CodyCantEatThis appeared on my recomened feed on youtube
@@ -21,5 +21,17 @@
     have not really worked on it).
   </p>
 
-  <div class="divider"></div>
+  <div class="divider px-10"></div>
+  <h1 class="font-bold text-center text-4xl pb-10">Recent Updates On Games</h1>
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10 item-center"
+  >
+    <ProjectCard
+      title="Clothes Conundrum Version v0.0.1"
+      description="This is the Dev Log for my game Clothes Conundrum"
+      imageSrc="/imgs/clothesconundrumbg.png"
+      imgAltText="Image of Potatoes"
+      routeLocation="gameDev/clothesConundrum/0.0.1"
+    />
+  </div>
 </template>
