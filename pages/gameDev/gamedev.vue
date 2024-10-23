@@ -20,4 +20,6 @@
     where I am today still working on that game (mainly because i'm lazy and
     have not really worked on it).
   </p>
+
+  <div class="divider"></div>
 </template>
