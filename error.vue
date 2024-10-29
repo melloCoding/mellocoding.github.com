@@ -10,3 +10,9 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Error: 404",
+});
+</script>

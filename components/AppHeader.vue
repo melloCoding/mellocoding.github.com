@@ -6,9 +6,9 @@
     <div class="flex-none btn btn-ghost text-lg">
       <NuxtLink to="/gamedev">Devlog</NuxtLink>
     </div>
-    <!--<div class="flex-none btn btn-ghost text-lg">
+    <div class="flex-none btn btn-ghost text-lg">
       <NuxtLink to="/robotics">Robotics</NuxtLink>
     </div>
-    -->
+    
   </div>
 </template>
