@@ -35,3 +35,9 @@
     />
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Clothes Conundrum 0.0.1",
+});
+</script>

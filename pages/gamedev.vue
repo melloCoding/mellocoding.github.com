@@ -17,7 +17,7 @@
     software and I watched his game development steams and eventually he hosted
     his own game jam that I decided to participate in the 2024 Pirate Software
     Game Jam. In which I began to make a game called Clothes Conundrum and thats
-    where I am today still working on that game (mainly because i'm lazy and
+    where I am today still working on that game (mainly because I'm lazy and
     have not really worked on it).
   </p>
 
@@ -35,3 +35,9 @@
     />
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Game Development",
+});
+</script>
