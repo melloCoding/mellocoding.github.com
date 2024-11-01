@@ -31,7 +31,7 @@
           description="First actually documented week of our robot for FTC team 13233 The Cyber Knights"
           imageSrc="/imgs/robotics/roboticsWeek1.png"
           imgAltText="basic image with the text 13233 cyber knights week 1 log"
-          routeLocation="/robotics/week1"
+          routeLocation="robotics/weekone"
         />
       </div>
     </div>
