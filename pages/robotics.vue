@@ -1,10 +1,10 @@
 <template>
   <div>
-    <AppHeader />
+    <AppHeader />p
     <h1 class="text-5xl font-bold text-center mb-10">Robotics page</h1>
     <div class="sm:flex-none md:flex mx-10">
       <div>
-        <p class="text-xl">
+        <p class="text-xl mb-10">
           I am a member of the robotics team at Coral Springs Charter School. We
           partcipate in the First Tech Challenge(FTC). We are team 13233 Cyber
           Kinghts. The FTC Game for this year is Into The Deep. We are currently

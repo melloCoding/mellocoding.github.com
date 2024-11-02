@@ -4,7 +4,7 @@
     <h1 class="text-5xl font-bold text-center mb-10">
       First Documented Build Log For the Into the Deep Season
     </h1>
-    <div class="flex px-10">
+    <div class="flex px-10 mb-10">
       <p class="text-xl">
         This is the first actually log for our team's season. I'm a bit late to
         this because i've been busy coding the rest of the website. So at the
@@ -19,6 +19,12 @@
         src="/imgs/robotics/robotonfeildone.jpeg"
         alt="aformentioned robot on the field"
       />
+    </div>
+    <div>
+      <p class="text-xl">
+        This week we did quite a bit. We revised our method for attaching the
+        linear actuator
+      </p>
     </div>
   </div>
 </template>
