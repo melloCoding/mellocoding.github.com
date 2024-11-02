@@ -52,6 +52,13 @@
     This provides the location for the route for when the user clicks on the card
     ----------------------------------------------------------------------------------->
       <ProjectCard
+        title="First Website Documented Build Log"
+        description="First actually documented week of our robot for FTC team 13233 The Cyber Knights"
+        imageSrc="/imgs/robotics/roboticsWeek1.png"
+        imgAltText="basic image with the text 13233 cyber knights week 1 log"
+        routeLocation="robotic/weekone"
+      />
+      <ProjectCard
         title="Clothes Conundrum Version v0.0.1"
         description="This is the Dev Log for my game Clothes Conundrum"
         imageSrc="/imgs/clothesconundrumbg.png"
