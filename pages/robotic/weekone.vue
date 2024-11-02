@@ -23,7 +23,7 @@
     <div>
       <p class="text-xl">
         This week we did quite a bit. We revised our method for attaching the
-        linear actuator
+        linear actuator.
       </p>
     </div>
   </div>
