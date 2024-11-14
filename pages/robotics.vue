@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppHeader />p
+    <AppHeader />
     <h1 class="text-5xl font-bold text-center mb-10">Robotics page</h1>
     <div class="sm:flex-none md:flex mx-10">
       <div>
