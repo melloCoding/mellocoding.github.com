@@ -10,7 +10,7 @@
         thought that if we didnt we would not pass inspection. After we removed
         the segment of the linear slider. We placed the claw onto the slider.
         Our claw design is rather simple it has to wedge shaped 3D printed parts
-        tht interfaces with the sample perfectly.
+        tht interfaces with the sample perfectly. This ended up working.
       </p>
       <div class="object-center">
         <img
