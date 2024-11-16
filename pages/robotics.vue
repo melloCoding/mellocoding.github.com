@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppHeader />p
+    <AppHeader />
     <h1 class="text-5xl font-bold text-center mb-10">Robotics page</h1>
     <div class="sm:flex-none md:flex mx-10">
       <div>
@@ -34,6 +34,12 @@
           routeLocation="robotic/weekone"
         />
       </div>
+    </div>
+    <div class="divider">
+      <h1 class="text-4xl font-bold text-center mb-10">Gallery</h1>
+      <div
+        class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10 item-center"
+      ></div>
     </div>
   </div>
 </template>
