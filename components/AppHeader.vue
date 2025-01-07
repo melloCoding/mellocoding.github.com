@@ -11,5 +11,9 @@
     <NuxtLink to="/robotics">
       <div class="flex-none btn btn-ghost text-lg">Robotics</div>
     </NuxtLink>
+
+    <NuxtLink to="/project">
+      <div class="flex-none btn btn-ghost text-lg">Projects</div>
+    </NuxtLink>
   </div>
 </template>
