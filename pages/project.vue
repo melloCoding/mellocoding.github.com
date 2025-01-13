@@ -10,9 +10,15 @@
     <ProjectCard
       title="Custom Hitbox Controller V1"
       description="Custom made hitbox style controller for tekken"
-      imageSrc="/imgs/hitbox1.jpeg"
+      imageSrc="/imgs/projects/hitboxv1/hitboxv1.jpeg"
       imgAltText="A 3d printed hitbox flat controller that is orange and white"
       routeLocation="projects/hitboxv1"
     />
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Projects",
+});
+</script>

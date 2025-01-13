@@ -2,7 +2,7 @@
   <AppHeader />
   <div>
     <h1 class="text-5xl font-bold text-center mb-10">Week Two</h1>
-    <div class=":sm:px-10 lg:px-44 mb-10">
+    <div class="sm:px-10 lg:px-44 mb-10">
       <p class="text-xl">
         This week was crunch time because we had a competition this weekend
         coming up. So one of the first things that we did this week was to
