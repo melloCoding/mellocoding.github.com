@@ -6,7 +6,6 @@
   <div
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 content-stretch px-[5%] gap-[5%] mb-10 item-center"
   >
-    <!-- Edit the image source-->
     <ProjectCard
       title="Custom Hitbox Controller V1"
       description="Custom made hitbox style controller for tekken"

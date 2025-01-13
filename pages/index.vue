@@ -52,6 +52,13 @@
     This provides the location for the route for when the user clicks on the card
     ----------------------------------------------------------------------------------->
       <ProjectCard
+        title="Custom Hitbox Controller V1"
+        description="Custom made hitbox style controller for tekken"
+        imageSrc="/imgs/projects/hitboxv1/hitboxv1.jpeg"
+        imgAltText="A 3d printed hitbox flat controller that is orange and white"
+        routeLocation="projects/hitboxv1"
+      />
+      <ProjectCard
         title="First Website Documented Build Log"
         description="First actually documented week of our robot for FTC team 13233 The Cyber Knights"
         imageSrc="/imgs/robotics/roboticsWeek1.png"
