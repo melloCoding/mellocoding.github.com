@@ -45,6 +45,7 @@
       </p>
     </div>
   </div>
+  <mouseDot />
 </template>
 <script setup lang="ts">
 useHead({
