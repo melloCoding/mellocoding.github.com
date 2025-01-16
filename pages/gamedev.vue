@@ -1,5 +1,4 @@
 <template>
-  <AppHeader />
   <h1 class="text-center text-5xl font-bold pb-5">Game Development</h1>
   <p class="text-center text-xl px-10">
     I have begun to learn game development as it is something that has

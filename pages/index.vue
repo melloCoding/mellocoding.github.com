@@ -1,7 +1,5 @@
 <template>
   <div>
-    <AppHeader />
-
     <!--Hero for name picture and description-->
     <div class="hero min-h-screen">
       <div class="hero-content flex-col lg:flex-row">

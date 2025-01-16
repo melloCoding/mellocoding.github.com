@@ -1,5 +1,4 @@
 <template>
-  <AppHeader />
   <div>
     <h1 class="text-5xl font-bold text-center mb-10">
       First Documented Build Log For the Into the Deep Season

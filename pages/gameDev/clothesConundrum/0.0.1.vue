@@ -1,5 +1,4 @@
 <template>
-  <AppHeader />
   <h1 class="text-center font-bold pb-10 text-4xl">
     Clothes Conundrum Version v0.0.1
   </h1>

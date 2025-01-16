@@ -1,5 +1,4 @@
 <template>
-  <AppHeader />
   <h1 class="text-5xl font-bold text-center mb-10">Hitbox v1</h1>
   <div class="divider px-10"></div>
   <div>
@@ -37,7 +36,7 @@
     </div>
     <div class="px-10">
       <p class="sm:px-5 md:px-10 mb-10">
-        I decided to before makeing any other harware decisions that I should
+        I decided to before making any other harware decisions that I should
         test GP2040-CE on the PS5 what I would be using for playing Tekken at
         the tournaments, and I goti it working however there was a catch. That
         being that the controller was actaully unable too play any games on the
@@ -45,7 +44,6 @@
       </p>
     </div>
   </div>
-  <mouseDot />
 </template>
 <script setup lang="ts">
 useHead({

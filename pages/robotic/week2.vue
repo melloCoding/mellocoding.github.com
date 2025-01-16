@@ -1,5 +1,4 @@
 <template>
-  <AppHeader />
   <div>
     <h1 class="text-5xl font-bold text-center mb-10">Week Two</h1>
     <div class="sm:px-10 lg:px-44 mb-10">
