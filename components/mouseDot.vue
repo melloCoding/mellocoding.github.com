@@ -1,11 +1,12 @@
 <template>
   <div
+    id="circle"
     ref="circle"
     class="backdrop-invert w-3 h-3 rounded-full absolute pointer-events-none z-50"
   ></div>
 </template>
 
-<script>
+<script defer>
 import { ref, onMounted } from "vue";
 
 export default {
