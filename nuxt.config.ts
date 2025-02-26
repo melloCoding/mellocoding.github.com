@@ -10,6 +10,6 @@ export default defineNuxtConfig({
       title: 'Jeffrey Mello',
     }
   },
-  modules: ['@nuxtjs/tailwindcss'],
-  css: ['~/assets/css/tailwind.css']
+  modules: ['@nuxtjs/tailwindcss','@nuxt/content'], 
+  css: ['~/assets/css/tailwind.css'],
 })
